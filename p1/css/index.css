@@ -1,0 +1,48 @@
+#wrapper {
+	min-height:800px;
+	padding-bottom: 0px;
+}
+
+/* header */
+
+header {
+	z-index: 0;
+	position: relative;
+	padding-bottom: 500px;
+}
+
+#header-title-container {
+	z-index: 0;
+	position: absolute;
+	top: 0px;
+	width: 100%;
+	min-height: 800px;
+	background: url("../img/header-bg2.jpg") no-repeat top center scroll;
+	background-size: 100% auto;
+	background-color: #000;
+	text-align: center;
+
+}
+
+
+#header-text {
+	background-color: rgba(0,0,0,0.4);
+}
+
+#header-title {
+	margin-top: 45vh;
+	font-size: 8vw;
+	font-family: SlimJoe;
+	color: #fff;
+	padding-top: 90px;
+
+}
+
+#header-subtitle {
+	font-family: Jaapokki;
+	font-size: 22px;
+	position: relative;
+	top: -3em;
+}
+
+

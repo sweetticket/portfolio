@@ -1,0 +1,77 @@
+/* gallery home */
+
+#wrapper {
+    padding-top: 60px;
+    width: 100%;
+}
+
+#artbox {
+	text-align: center;
+	margin: auto;
+	position: absolute;
+	top: 60px;
+	width: 100%;
+}
+
+
+table.artgrid {
+        position: relative;
+	padding: 0px;
+	border-width: 10px;
+	margin: 0px auto;
+	width: 100%;
+}
+
+tr.artgrid {
+    position: relative;
+}
+
+td.artgrid {
+    position: relative;
+    z-index: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+.artthumbs {
+        position: relative;
+        z-index: 0;
+	width: 100%;
+	height: auto;
+        margin-top: -20px;
+        margin-bottom: -20px;
+}
+
+
+.cat-text {
+    font-family: SlimJoe;
+    color: #fff;
+    font-size: 3vw;
+    position: absolute;
+    z-index: 1;
+    margin: 0 auto;
+    margin-top: -20px;
+    padding-bottom: 20px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-color: rgba(0,0,0,0.8);
+    opacity: 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    text-decoration: none;
+}
+
+.cat-text p {
+    padding-top: 50%;
+    line-height: 100%;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.cat-text:hover {
+    opacity: 0.8;
+}
+
