@@ -78,6 +78,7 @@ nav {
 }
 
 nav ul {
+	z-index: 10;
 	float: right;
 	margin-top: 0px;
 	display: table-row;
@@ -88,6 +89,7 @@ nav ul {
 }
 
 nav li {
+	z-index: 10;
 	display: table-cell;
 	padding: 0px 18px 0px 18px;
 }

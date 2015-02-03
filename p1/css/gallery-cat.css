@@ -67,6 +67,10 @@ footer {
     text-decoration: none;
 }
 
+nav {
+    z-index: 10;
+}
+
 .longer {
     padding-top: 15%;
     height: 85%;

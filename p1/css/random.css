@@ -1,61 +1,54 @@
 #wrapper {
-    padding-top: 100px;
+    padding-top: 180px;
     font-family: Jaapokki;
     font-size: 20px;
-    padding-bottom: 150px;
 }
 
-h1, h2 {
-    font-family: SlimJoe;
+footer {
+    position: fixed;
+    bottom: 0px;
 }
 
 h1 {
+    font-family: SlimJoe;
     font-size: 70px;
     line-height: 20%;
 }
 
-
-h2 {
-    font-size: 40px;
-    border-top: 1px solid rgba(255, 255, 255, 0.5);
-    padding-top: 60px;
-    margin-left: 15%;
-    margin-right: 15%;
-    line-height: 30%;
+#submit-form-button {
+    color: #fff;
+    font-family: Jaapokki;
+    font-size: 25px;
+    width: 135px;
+    height: 60px;
+    border-radius: 5px;
+    margin: 10px;
+    background-color: #000;
+    border: 1px #727272 solid;
 }
 
-form {
-    width: 40%;
-    margin: 0 auto;
+#submit-random-button:link, #submit-random-button:visited {
+    color: #fff;
+    font-family: Jaapokki;
+    font-size: 25px;
+    width: 135px;
+    height: 60px;
+    border-radius: 5px;
+    margin: 10px;
+    background-color: #000;
+    border: 1px #ff0066 solid;
+    padding: 10px 45px 10px 45px;
+    text-decoration: none;
 }
 
-.left, .right {
-    text-align: justify;
-    padding: 0px 20px 20px 20px;
+#submit-random-button:hover, #submit-form-button:hover {
+    cursor: pointer;
+    background-color: #ff0066;
+    -webkit-transition: all 0.3s linear;
+    transition: all 0.3s linear;
 }
 
-.left {
-    float: left;
+#subtitle {
+    padding-bottom: 20px;
 }
-
-.right {
-    float: right;
-}
-
-.clear-floats {
-    clear: both;
-    padding: 10px;
-}
-
-#submit-random-button, #submit-form-button {
-color: #727272;
-font-family: SlimJoe;
- font-size: 25px;
- width: 135px;
- height: 60px;
- border-radius: 5px;
- margin: 10px;
- background-color: rgba(255, 255, 255, 0.8); 
-}
-
 
