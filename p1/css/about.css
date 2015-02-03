@@ -33,3 +33,7 @@ h1 {
     width: 60%;
     padding: 10px 60px 60px 60px;
 }
+
+nav {
+    z-index: 10;
+}
