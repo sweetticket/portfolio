@@ -1,0 +1,49 @@
+#wrapper {
+    padding-top: 90px;
+    font-family: Jaapokki;
+    font-size: 20px;
+    padding-bottom: 180px;
+}
+
+
+h1 {
+    font-family: SlimJoe;
+    font-size: 70px;
+    line-height: 20%;
+}
+
+#submit-random-button:link, #submit-random-button:visited {
+    color: #fff;
+    font-family: Jaapokki;
+    font-size: 25px;
+    width: 135px;
+    height: 60px;
+    border-radius: 5px;
+    margin: 10px;
+    background-color: #000;
+    border: 1px #ff0066 solid;
+    padding: 10px 45px 10px 45px;
+    text-decoration: none;
+}
+
+#submit-random-button:hover, #submit-form-button:hover {
+    cursor: pointer;
+    background-color: #ff0066;
+    -webkit-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+
+div.result {
+    text-align: center;
+    position: relative;
+}
+
+.result h1 {
+    line-height: 70px;
+}
+
+img.result {
+    width: 40%;
+    margin: 0 auto;
+    padding-bottom: 70px;
+}
