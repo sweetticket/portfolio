@@ -15,7 +15,7 @@
     $name = "Anon";
     $subject = "[No Subject]";
     $message = "[No Message]";
-    $cat = [];
+    $cat = array();
     $imp = "";
     $strange = "";
 
