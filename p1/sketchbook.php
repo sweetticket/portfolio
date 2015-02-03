@@ -14,7 +14,8 @@
     
     <div id="wrapper">
         <div id="cat-header-container">
-            <p>SKETCH BOOK</p>
+            <p>SKETCH BOOK<br>
+            <span id="sub">Rough and on-the-go</span></p>
             <img src="img/sketch-bg.jpg" alt="sketchbook" id="cat-header-img">
         </div>
         <div id="container">

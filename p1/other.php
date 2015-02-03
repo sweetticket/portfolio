@@ -14,7 +14,8 @@
     
     <div id="wrapper">
         <div id="cat-header-container">
-            <p>OTHER PROJECTS</p>
+            <p>OTHER PROJECTS<br>
+            <span id="sub">Miscellaneous and mixed media</span></p>
             <img src="img/other-bg.jpg" alt="other" id="cat-header-img">
         </div>
         <div id="container">

@@ -8,13 +8,15 @@
     <link rel="stylesheet" type="text/css" href="css/gallery-cat.css">
     <script src="js/jquery.js"></script>
     <script src="js/packery.pkgd.min.js"></script>
+
 </head>
 <body>
     <?php include("template/nav.php"); ?>
     
     <div id="wrapper">
         <div id="cat-header-container">
-            <p>ON CANVAS</p>
+            <p>ON CANVAS<br>
+            <span id="sub">Paintings mostly in oil and acrylic</span></p>
             <img src="img/oncanvas-bg.jpg" alt="oncanvas" id="cat-header-img">
         </div>
         <div id="container">

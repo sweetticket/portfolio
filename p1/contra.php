@@ -14,8 +14,9 @@
     <?php include("template/nav.php"); ?>
     
     <div id="wrapper">
-        <div id="cat-header-container">
-            <p>CONTRA NATURAM</p>
+        <div id="cat-header-container" class="contra-header-container">
+            <p>CONTRA NATURAM<br>
+            <span id="sub">A concentration on the unnatural</span></p>
             <img src="img/contra-bg.jpg" alt="contra" id="cat-header-img">
         </div>
         <div id="container">

@@ -16,12 +16,11 @@
     font-family: SlimJoe;
     background-color: rgba(0,0,0,0.55);
     font-size: 100px;
-    line-height: 180px;
-    padding-top: 15px;
+    line-height: 60px;
+    padding-top: 60px;
     overflow: hidden;
 
 }
-
 
 #cat-header-container {
     margin-top: 60px;
@@ -35,6 +34,12 @@
     width: 90%;
     padding-top: 70px;
     padding-bottom: 100px;
+}
+
+#sub {
+    font-family: SlimJoe;
+    font-size: 22px;
+    width: 100%;
 }
 
 .item, .item img {

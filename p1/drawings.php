@@ -14,7 +14,8 @@
     
     <div id="wrapper">
         <div id="cat-header-container">
-            <p>DRAWINGS</p>
+            <p>DRAWINGS<br>
+            <span id="sub">Graphite, charcoal, colored pencils, etc.</span></p>
             <img src="img/draw-bg.jpg" alt="drawings" id="cat-header-img">
         </div>
         <div id="container">
