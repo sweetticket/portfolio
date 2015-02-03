@@ -13,10 +13,10 @@
     <div id="wrapper">
             <h1>SAY HELLO</h1>
             <p id="subtitle">Or something else.</p>
-        <form action="formresult.php" method="POST">
+        <form action="formresult.php" method="POST" id="contactform">
             <p class="label">Name:&nbsp;&nbsp;&nbsp;<input type="text" name="name"> </p>
             <p class="label">Subject:&nbsp;&nbsp;&nbsp;<input type="text" name="subject"> </p>
-            <p class="label">Your Message:</p> <textarea cols="75" rows="10"></textarea>
+            <p class="label">Your Message:</p> <textarea name="message" cols="75" rows="10" form="contactform"></textarea>
             <p class="label">What categories did you like?</p>
                 <div class="slight-center">
                 <input class="cat choice" type="checkbox" name="cat[]" value='on canvas'> On Canvas<br>

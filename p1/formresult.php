@@ -12,9 +12,9 @@
     <?php include("template/nav.php");
     include("functions.php");
     $myemail = "yk494@cornell.edu";
-    $name = "Anon";
-    $subject = "[No Subject]";
-    $message = "[No Message]";
+    $name = "";
+    $subject = "";
+    $message = "";
     $cat = array();
     $imp = "";
     $strange = "";
@@ -28,8 +28,15 @@
         if (isset($_POST['imp'])){ $imp = $_POST['imp']; };
         if (isset($_POST['strange'])){ $strange = ($_POST['strange'])*10; };
         
-        mail($myemail, "\'$subject\' from $name", $message);
-                
+        if (!empty($message)){
+            if (empty($name)){
+                $name = "Anon";
+            };
+            if (empty($subject)){
+                $subject = "[No Subject]";
+            };
+            mail($myemail, "'$subject' from $name", $message);
+        };      
         
     }else{
         echo("Something went wrong!!!");
