@@ -1,9 +1,98 @@
 #wrapper {
-    padding-top: 180px;
+    padding-top: 150px;
+    font-family: SlimJoe;
+    font-size: 18px;
+    line-height: 30px;
+    padding-bottom: 180px;
 }
 
 h1 {
     font-family: SlimJoe;
     font-size: 70px;
     line-height: 70%;
+}
+
+#subtitle {
+    font-family: Jaapokki;
+    font-size: 30px;
+    border-bottom: 1px solid #727272;
+    width: 45%;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+
+.label {
+    font-family: Jaapokki;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+form {
+    margin: 0 auto;
+    width: 40%;
+    padding-top: 30px;
+    text-align: left;
+    
+}
+
+#range-label{
+    font-family: SlimJoe;
+    font-size: 18px;
+}
+
+#send-button {
+    text-align: center;
+    color: #fff;
+    font-family: Jaapokki;
+    font-size: 25px;
+    width: 135px;
+    height: 60px;
+    border-radius: 5px;
+    margin: 10px;
+    background-color: #000;
+    border: 1px #ff0066 solid;
+}
+
+#send-button:hover {
+    cursor: pointer;
+    background-color: #ff0066;
+    -webkit-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+
+.center {
+    margin: 0 auto;
+    width: 40%;
+    padding-top: 50px;
+}
+
+.slight-center {
+    margin: 0 auto;
+    width: 80%;
+}
+
+#thankyou {
+    font-size: 40px;
+    padding-top: 10px;
+}
+
+#back-home:link, #back-home:visited {
+    color: #fff;
+    font-family: Jaapokki;
+    font-size: 25px;
+    width: 135px;
+    height: 60px;
+    border-radius: 5px;
+    margin: 10px;
+    background-color: #000;
+    border: 1px #ff0066 solid;
+    padding: 10px 45px 10px 45px;
+    text-decoration: none;
+}
+
+#back-home:hover, #back-home:hover {
+    cursor: pointer;
+    background-color: #ff0066;
+    -webkit-transition: all 0.3s linear;
+    transition: all 0.3s linear;
 }

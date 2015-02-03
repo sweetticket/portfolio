@@ -11,41 +11,35 @@
 <body>
     <?php include("template/nav.php"); ?>
     <div id="wrapper">
-            <h1>Contact the Artist</h1>
-                <form action="formresult.php" method="POST">
-            <div class="left">
-            <p>Choose categories:</p>
-                <input class="cat choice" type="checkbox" name="cat[]" value="oncanvas"> On Canvas<br>
-                <input class="cat choice" type="checkbox" name="cat[]" value=Òdrawings"> Drawings<br>
-                <input class="cat choice" type="checkbox" name="cat[]" value=Òcontra"> Contra Naturam<br>
-                <input class="cat choice" type="checkbox" name="cat[]" value=Òsketchbook"> Sketch Book<br>
-                <input class="cat choice" type="checkbox" name="cat[]" value=Òother"> Other Projects<br>
+            <h1>SAY HELLO</h1>
+            <p id="subtitle">Or something else.</p>
+        <form action="formresult.php" method="POST">
+            <p class="label">Name:&nbsp;&nbsp;&nbsp;<input type="text" name="name"> </p>
+            <p class="label">Subject:&nbsp;&nbsp;&nbsp;<input type="text" name="subject"> </p>
+            <p class="label">Your Message:</p> <textarea cols="75" rows="10"></textarea>
+            <p class="label">What categories did you like?</p>
+                <div class="slight-center">
+                <input class="cat choice" type="checkbox" name="cat[]" value='on canvas'> On Canvas<br>
+                <input class="cat choice" type="checkbox" name="cat[]" value='drawings'> Drawings<br>
+                <input class="cat choice" type="checkbox" name="cat[]" value='contra naturam'> Contra Naturam<br>
+                <input class="cat choice" type="checkbox" name="cat[]" value='sketch book'> Sketch Book<br>
+                <input class="cat choice" type="checkbox" name="cat[]" value='other projects'> Other Projects<br>
+                </div>
+            <p class="label">Your general impression of the art:</p>
+                <div class="slight-center">
+                <input class="imp choice" type="radio" name="imp" value="neutral" CHECKED> Neutral<br>
+                <input class="imp choice" type="radio" name="imp" value="positive"> Positive<br>
+                <input class="imp choice" type="radio" name="imp" value="negative"> Negative<br>
+                </div>
+            <p class="label">How strange did you think the artwork was?</p>
+                
+                <div class="slight-center">
+                    <span id="range-label">Normal <input type="range" name="strange" min="0" max="10"> Crazy </span><br>
+                </div>
+            <div class="center">
+            <input type="submit" name="submit" value="SEND" id="send-button" >
             </div>
-            <div class="right">
-            <p>Choose subject:</p>
-                <input class="subject choice" type="radio" name="subject" value="any" CHECKED> Any<br>
-                <input class="subject choice" type="radio" name="subject" value=Òhumans"> Humans<br>
-                <input class="subject choice" type="radio" name="subject" value="objects"> Objects<br>
-                <input class="subject choice" type="radio" name="subject" value=Òcreatures"> Creatures<br>
-            </div>
-            <div class="clear-floats">
-            <p>Choose creation year: &nbsp;&nbsp;
-                <select name="year">
-                    <option value="Any">Any</option>
-                    <option value="2010">2010</option>
-                    <option value="2011">2011</option>
-                    <option value="2012">2012</option>
-                    <option value="2013">2013</option>
-                </select>
-            </p>
-            <p>Level of Strangeness: &nbsp;&nbsp;
-                <span id="range-label">Normal <input type="range" name="strange" min="0" max="10"> Crazy </span>
-            </p>
-            <p>Try searching for a title: &nbsp;&nbsp;
-                <input type="text" name="title">
-            </p>
-            <input id="submit-form-button" type="submit" name="submit-form" value="GO" >
-            </div>
+        </form>
     <?php include("template/footer.php"); ?>
     </div>
 </body>
