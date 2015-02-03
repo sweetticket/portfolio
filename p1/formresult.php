@@ -10,6 +10,7 @@
 </head>
 <body>
     <?php include("template/nav.php");
+    include("functions.php");
     $myemail = "yk494@cornell.edu";
     $name = "Anon";
     $subject = "[No Subject]";
@@ -28,6 +29,7 @@
         if (isset($_POST['strange'])){ $strange = ($_POST['strange'])*10; };
         
         mail($myemail, "\'$subject\' from $name", $message);
+                
         
     }else{
         echo("Something went wrong!!!");
@@ -42,6 +44,15 @@
             <p id="thankyou">Thanks <?php echo($name); ?> for your message!</p>
             <p class="label">You said that you liked the following categories:</p>
             <p><?php echo(implode(', ', $cat)); ?> </p>
+            
+                <?php
+                
+                if (count($cat) > 0){
+                echo("<p class=\"label\">Here are some samples of what you liked:</p>
+                    <div id=\"samples\">");
+                echo(generateSamples($cat));
+                };
+                ?>
             <p class="label">You said that you had a <?php echo($imp); ?> experience.</p>
             <p class="label">You said that the art had a <?php echo($strange) ?>% strangeness level.</p>
             

@@ -96,3 +96,17 @@ form {
     -webkit-transition: all 0.3s linear;
     transition: all 0.3s linear;
 }
+
+
+#single-sample {
+    width: 30%;
+    margin: 0 auto;
+}
+
+#samples img {
+    width: 100%;
+}
+
+#samples h1 {
+    font-size: 30px;
+}
